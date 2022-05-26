@@ -15,13 +15,11 @@ function SuppliersTable() {
       {
         field: 'id',
         headerName: 'Company Id',
-        headerClassName: 'super-app-theme--header', 
         width: 150
       },
       {
         field: 'companyName',
         headerName: 'Company Name',
-        headerClassName: 'super-app-theme--header',
         width: 150
         
       },
@@ -29,7 +27,6 @@ function SuppliersTable() {
         field: 'contactName',
         headerName: 'Contact Name',
         width: 150,
-        headerClassName: 'super-app-theme--header',
 
 
       },
@@ -37,7 +34,6 @@ function SuppliersTable() {
         field: 'contactTitle',
         headerName: 'Contact Title',
         width: 150,
-        headerClassName: 'super-app-theme--header',
 
       }
     ]
